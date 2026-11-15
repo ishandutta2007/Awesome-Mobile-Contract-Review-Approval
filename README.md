@@ -2,9 +2,18 @@
   <img src="./assets/banner.svg" alt="Awesome Mobile Contract Review and Approval - CLM & e-Signature Solutions" width="100%">
 </p>
 
-# Awesome Mobile Contract Review & Approval [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# 📑 Awesome Mobile Contract Review & Approval
 
-> A curated list of top **Mobile Contract Review and Approval** platforms, Contract Lifecycle Management (CLM) suites, and open-source alternatives for reviewing, redlining, and approving legal agreements from mobile devices (iOS & Android).
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome List" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Contract-Review-Approval/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Mobile-Contract-Review-Approval?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Mobile-Contract-Review-Approval/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Mobile-Contract-Review-Approval?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> 📱 A curated directory of top **Mobile Contract Review and Approval** platforms, Contract Lifecycle Management (CLM) suites, and open-source alternatives for reviewing, redlining, and approving legal agreements from mobile devices (iOS & Android).
 > 🌟 Star this repo if you find it useful! 🌟
 
 ---
@@ -17,13 +26,15 @@ The global **Contract Lifecycle Management (CLM)** software market is valued at 
 
 ## 📋 Table of Contents
 
-- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-- [Open-Source Software](#-open-source-software)
-- [Comprehensive Comparison Matrix](#-comprehensive-comparison-matrix)
-- [Key Evaluation Criteria for Mobile Contract Review](#-key-evaluation-criteria-for-mobile-contract-review)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [🔍 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🟩 Open-Source Software](#-open-source-software)
+- [📊 Comprehensive Comparison Matrix](#-comprehensive-comparison-matrix)
+- [💡 Key Evaluation Criteria for Mobile Contract Review](#-key-evaluation-criteria-for-mobile-contract-review)
+- [🤝 Contributing](#-contributing)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [📄 License](#-license)
 
 ---
 
@@ -33,7 +44,7 @@ Commercial, cloud-hosted mobile contract review, redlining, and digital approval
 
 *The table is sorted in descending order by company scale (market capitalization or private enterprise valuation).*
 
-| Company & Platform | Scale (Valuation / Market Cap) | Starting Price (Paid Tier) | Free Tier / Trial Limits | Key Capabilities & Mobile Review Focus |
+| 🏢 Company & Platform | 💰 Scale (Valuation / Market Cap) | 🏷️ Starting Price (Paid Tier) | 🎁 Free Tier / Trial Limits | 📱 Key Capabilities & Mobile Review Focus |
 | :--- | :--- | :--- | :--- | :--- |
 | **Adobe Acrobat Sign** | ~$94.6 Billion (Market Cap, NASDAQ: ADBE) | **$12.99 / user / month** (Acrobat Standard, annual commitment) | **30-day free trial**; permanent free tier allows signing and recipient viewing only (no document sending) | Native mobile apps for iOS and Android; provides mobile Reading Mode, audit trails, Certified PDFs, and offline e-signing with automatic background sync once back online. |
 | **Docusign Mobile** | ~$15.0 Billion (Market Cap, NASDAQ: DOCU) | **$10.00 / month** (Personal plan, billed annually) | **30-day free trial**; permanent free plan limited to a **lifetime total of 3 document sending requests** (unlimited free signing) | Redesigned iOS/Android apps with camera document capture, field drag-and-drop, real-time push alerts, and agreement status tracking dashboards. |
@@ -51,7 +62,7 @@ Self-hosted, developer-friendly, and community-driven mobile contract review, re
 
 *Sorted in descending order by GitHub stargazers count.*
 
-| Project | Stars | Stack | License | Mobile Capabilities & Highlights |
+| 🛠️ Project | ⭐ Stars | 💻 Stack | 📜 License | 📱 Mobile Capabilities & Highlights |
 | :--- | :--- | :--- | :--- | :--- |
 | [**DocuSeal**](https://github.com/docusealco/docuseal) | [![GitHub stars](https://img.shields.io/github/stars/docusealco/docuseal?style=social&color=white)](https://github.com/docusealco/docuseal/stargazers) | Ruby, PostgreSQL | AGPL-3.0 | Modern open-source DocuSign alternative featuring a mobile-responsive interface and a **native iOS mobile app**. Offers 12 field types, multi-signer workflows, PDF creation, and webhook integrations. |
 | [**Documenso**](https://github.com/documenso/documenso) | [![GitHub stars](https://img.shields.io/github/stars/documenso/documenso?style=social&color=white)](https://github.com/documenso/documenso/stargazers) | Next.js, TypeScript, PostgreSQL | AGPL-3.0 | Modern, open digital signing infrastructure. Highly responsive web interface optimized for touchscreen document inspection, signing flows, and multi-party cryptographic sealing. |
@@ -66,7 +77,7 @@ Self-hosted, developer-friendly, and community-driven mobile contract review, re
 
 ## 📊 Comprehensive Comparison Matrix
 
-| Software Platform | Type / License | Mobile Experience | In-App Redline / Review | Digital Signing | Self-Hosted / On-Prem | Best For |
+| 📱 Software Platform | ⚖️ Type / License | 📲 Mobile Experience | ✍️ In-App Redline / Review | 🔏 Digital Signing | 🏠 Self-Hosted / On-Prem | 🎯 Best For |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Adobe Acrobat Sign** | Proprietary SaaS | Native iOS / Android | Limited (Reading Mode) | ✅ Yes (Offline sync) | ❌ Cloud Only | Global enterprise standard for offline & compliant mobile signature |
 | **Docusign Mobile** | Proprietary SaaS | Native iOS / Android | Limited (Status tracking) | ✅ Yes | ❌ Cloud Only | Ubiquitous mobile e-signatures and agreement tracking |
@@ -90,10 +101,10 @@ Self-hosted, developer-friendly, and community-driven mobile contract review, re
 
 When evaluating platforms for mobile contract review and sign-off, legal and procurement teams should consider:
 
-1. **Touchscreen Redlining vs. Gate Approval:** Does your workflow require deep on-the-go clause editing (such as OnlyOffice or draftLegal), or simply rapid executive one-touch approval (like Coupa or Conga)?
-2. **Offline Readiness:** Field personnel and traveling executives often require offline contract review and signature capture with automatic synchronization (e.g., Adobe Acrobat Sign or SignNow).
-3. **Audit Trails & Security Compliance:** Ensure cryptographic authenticity (PAdES, ESIGN, UETA, and eIDAS compliance) and tamper-evident sealed PDFs.
-4. **Data Sovereignty & Self-Hosting:** Regulated sectors often mandate that contracts never leave on-premise infrastructure; self-hosted open-source options like DocuSeal, draftLegal, and OpenCLM address this requirement.
+1. ✍️ **Touchscreen Redlining vs. Gate Approval:** Does your workflow require deep on-the-go clause editing (such as OnlyOffice or draftLegal), or simply rapid executive one-touch approval (like Coupa or Conga)?
+2. 📴 **Offline Readiness:** Field personnel and traveling executives often require offline contract review and signature capture with automatic synchronization (e.g., Adobe Acrobat Sign or SignNow).
+3. 🔐 **Audit Trails & Security Compliance:** Ensure cryptographic authenticity (PAdES, ESIGN, UETA, and eIDAS compliance) and tamper-evident sealed PDFs.
+4. 🛡️ **Data Sovereignty & Self-Hosting:** Regulated sectors often mandate that contracts never leave on-premise infrastructure; self-hosted open-source options like DocuSeal, draftLegal, and OpenCLM address this requirement.
 
 ---
 
@@ -101,10 +112,30 @@ When evaluating platforms for mobile contract review and sign-off, legal and pro
 
 Contributions are warmly welcome! If you know of an active SaaS platform or open-source repository focusing on mobile contract review, redlining, or approval:
 
-1. Fork this repository.
-2. Create a branch: `git checkout -b feature/new-tool`.
-3. Add the project with details, pricing/stars, and mobile capabilities.
-4. Open a Pull Request.
+1. 🍴 Fork this repository.
+2. 🌿 Create a branch: `git checkout -b feature/new-tool`.
+3. 📝 Add the project with details, pricing/stars, and mobile capabilities.
+4. 🚀 Open a Pull Request.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for visiting and supporting this curated list! 🙌
+
+If you find this repository valuable for your research, team, or organization, please consider:
+- ⭐ **Starring** the repository to boost visibility.
+- 🍴 **Forking** and contributing new tools or corrections.
+- 📢 **Sharing** with colleagues, developers, and legal-tech enthusiasts.
+- ☕ **Buying a coffee / Sponsoring** the maintainer via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your backing directly fuels continuous maintenance, updates, and exploration across open-source and developer ecosystems! 🚀
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Mobile-Contract-Review-Approval&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Mobile-Contract-Review-Approval&type=date&legend=top-left)
 
 ---
 
