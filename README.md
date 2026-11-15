@@ -1,127 +1,113 @@
-# Awesome-Mobile-Contract-Review-Approval
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Mobile Contract Review and Approval - CLM & e-Signature Solutions" width="100%">
+</p>
 
-# Awesome Mobile Contract Review & Approval
+# Awesome Mobile Contract Review & Approval [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of top Mobile Contract Review and Approval platforms — both SaaS/Hosted commercial solutions and open-source alternatives for reviewing, redlining, and approving contracts from mobile devices.
+> A curated list of top **Mobile Contract Review and Approval** platforms, Contract Lifecycle Management (CLM) suites, and open-source alternatives for reviewing, redlining, and approving legal agreements from mobile devices (iOS & Android).
 > 🌟 Star this repo if you find it useful! 🌟
+
+---
+
+## 🔍 Sector Overview & Market Dynamics
+
+The global **Contract Lifecycle Management (CLM)** software market is valued at approximately **$2.5 billion to $3.3 billion** and is projected to expand past **$8 billion to $11 billion** over the next decade (growing at a compound annual growth rate of 12%–14%). The sector is currently **moderately fragmented**—with the top five enterprise vendors commanding roughly 30%–35% of overall market revenue, leaving significant opportunity for specialized point solutions, AI-assisted review tools, and open-source self-hosted implementations. However, strategic consolidation is steadily accelerating as major players acquire AI redlining and natural language processing startups to integrate mobile review pipelines into unified end-to-end contracting ecosystems.
 
 ---
 
 ## 📋 Table of Contents
 
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Docusign Mobile](#docusign-mobile)
-  - [Adobe Acrobat Sign Mobile](#adobe-acrobat-sign-mobile)
-  - [PandaDoc Mobile](#pandadoc-mobile)
-  - [Ironclad](#ironclad)
-  - [Conga Contracts Mobile](#conga-contracts-mobile)
-  - [SignNow Mobile](#signnow-mobile)
-  - [Coupa Mobile Approvals](#coupa-mobile-approvals)
 - [Open-Source Software](#-open-source-software)
-  - [draftLegal](#draftlegal)
-  - [OpenCLM](#openclm)
-  - [DocuSeal](#docuseal)
-  - [Click2Approve](#click2approve)
-  - [OnlyOffice Documents](#onlyoffice-documents)
+- [Comprehensive Comparison Matrix](#-comprehensive-comparison-matrix)
+- [Key Evaluation Criteria for Mobile Contract Review](#-key-evaluation-criteria-for-mobile-contract-review)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Mobile Contract Review and Approval platforms. These are not open-source but are included as reference points for feature comparison.
+Commercial, cloud-hosted mobile contract review, redlining, and digital approval platforms.
 
-### Docusign Mobile
-**Type:** Mobile e-signature and agreement management
-Docusign's redesigned mobile app allows users to upload documents by scanning with the camera or importing from cloud storage, tag signature fields with drag-and-drop, and send for signature via email or Google Drive [citation:2]. Real-time push notifications alert users when a document is signed, and reminders can be sent with a single tap [citation:11]. The app includes a dashboard showing pending, completed, and waiting agreements, with the ability to manage the entire workflow from a phone or tablet [citation:2]. **Note:** The app focuses on e-signature and status tracking rather than deep contract redlining or clause-level review on mobile.
+*The table is sorted in descending order by company scale (market capitalization or private enterprise valuation).*
 
-### Adobe Acrobat Sign Mobile
-**Type:** Mobile e-signature with offline support
-Adobe Acrobat Sign provides a mobile companion for its e-signature service, allowing users to open and sign documents instantly, read them in Reading Mode before signing, and sign directly on screen with a finger or stylus [citation:3]. A key differentiator is **offline signing**—documents can be signed without connectivity and sync automatically when back online [citation:3]. It supports delegating signing to another person or rejecting requests, saving partially filled forms, and sending documents for signature from cloud storage like Google Drive, Box, or Dropbox [citation:3]. Signed documents are saved as Certified PDFs with a complete audit trail and signer geolocation can be added [citation:3]. **Trade-off:** The app is e-signature focused; contract review and redlining happen in the broader Adobe Acrobat ecosystem rather than the mobile app itself.
-
-### PandaDoc Mobile
-**Type:** Mobile document creation and approval
-PandaDoc's mobile app allows users to create documents from scratch or from templates, send them, and collect e-signatures [citation:12]. It provides **real-time alerts** when someone opens, views, or completes a document, and supports viewing any document, approving it for signature, and managing the inbox directly from the phone [citation:12]. Comments and responses can be handled through the app, and reminders can be sent to recipients [citation:12]. **Trade-off:** Mobile approval is supported, but the deeper redlining and workflow configuration capabilities remain in the desktop/web version.
-
-### Ironclad
-**Type:** Contract workflow with mobile signing
-Ironclad's platform includes mobile lease signing, with the company reporting a **3x increase in mobile lease signing** [citation:13]. The workflow includes a Launch Form for intake, a Review step where internal Approvers approve each version, and a Share Document step that sends the contract to the counterparty via email (they do not need to log into Ironclad) [citation:5]. The Activity Feed records internal collaboration and @mentions [citation:5]. **Trade-off:** Ironclad's mobile experience is focused on signing and notifications rather than full contract review or redlining on the device.
-
-### Conga Contracts Mobile
-**Type:** Slim mobile interface for contract approvals
-Conga Contracts provides a **Slim Mobile Interface** accessible from iOS, BlackBerry, or Android devices, allowing users to view company and contract information and perform tasks like downloading documents, closing events, completing tasks, and **approving or declining Gateway steps in a workflow** [citation:6]. The interface is web-based (navigate to the contracts URL on a mobile browser) rather than a native app, and is designed for basic approval actions rather than document editing.
-
-### SignNow Mobile
-**Type:** Mobile e-signature with kiosk mode
-SignNow provides mobile e-signing with offline mode, the ability to sign documents digitally, fill and complete PDF/Word/rich text documents, and send signature requests to multiple recipients [citation:7]. It includes **Kiosk Mode** for events and waiting rooms, where a new document is generated for each signer while hiding other documents [citation:7]. It supports capturing photo IDs for signature verification, a detailed audit history, and team document sharing. **Trade-off:** Focused on signing and form completion rather than contract review workflows.
-
-### Coupa Mobile Approvals
-**Type:** Mobile procurement and contract approvals
-Coupa provides mobile approvals for procurement requisitions and contract-related spend, allowing users to check the status of purchasing requisitions and approve or reject items from anywhere on any device [citation:8]. The platform's central contract repository surfaces preferred supplier contracts at the top of search results, and guided buying steers users to contracted items [citation:8]. **Trade-off:** Mobile functionality is focused on approval actions within the procurement workflow rather than contract review or redlining.
+| Company & Platform | Scale (Valuation / Market Cap) | Starting Price (Paid Tier) | Free Tier / Trial Limits | Key Capabilities & Mobile Review Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| **Adobe Acrobat Sign** | ~$94.6 Billion (Market Cap, NASDAQ: ADBE) | **$12.99 / user / month** (Acrobat Standard, annual commitment) | **30-day free trial**; permanent free tier allows signing and recipient viewing only (no document sending) | Native mobile apps for iOS and Android; provides mobile Reading Mode, audit trails, Certified PDFs, and offline e-signing with automatic background sync once back online. |
+| **Docusign Mobile** | ~$15.0 Billion (Market Cap, NASDAQ: DOCU) | **$10.00 / month** (Personal plan, billed annually) | **30-day free trial**; permanent free plan limited to a **lifetime total of 3 document sending requests** (unlimited free signing) | Redesigned iOS/Android apps with camera document capture, field drag-and-drop, real-time push alerts, and agreement status tracking dashboards. |
+| **Coupa Mobile Approvals** | ~$8.0 Billion (Enterprise Acquisition by Thoma Bravo) | **~$20,000 / year** (Starting mid-market deployment quote) | **No public free tier or self-serve trial** (Demo upon request only) | Mobile procurement & contract spend approvals; centralized contract repository, preferred supplier search, and mobile workflow routing. |
+| **Ironclad** | $3.2 Billion (Valuation, Series E) | **~$15,000 / year** (Starting mid-market annual contract) | **No public free tier or self-serve trial** (Custom demo & scoping only) | AI-powered digital contracting with responsive mobile signing experiences, launch forms, version approval notifications, and @mention collaboration feeds. |
+| **Conga Contracts Mobile** | ~$2.0 Billion (Enterprise Valuation via Thoma Bravo / Apttus) | **$35.00 / user / month** (Starting baseline enterprise module) | **No public free tier or self-serve trial** (Sales assisted evaluation only) | Slim mobile-optimized web interface across iOS and Android for approving or declining workflow gateway steps, viewing repository documents, and event tracking. |
+| **SignNow Mobile** | ~$1.25 Billion (Parent airSlate Series C Valuation) | **$8.00 / user / month** (Business tier, billed annually) | **7-day free trial** with full platform capabilities; no permanent free sending tier | Mobile e-signing with offline support, PDF/Word document completion, team document sharing, and Kiosk Mode for in-person signature capture. |
+| **PandaDoc Mobile** | $1.0 Billion (Valuation, Series C Unicorn) | **$19.00 / seat / month** (Starter plan, billed annually) | **14-day free trial**; permanent Free eSign tier limited to **5 document sends per month** and up to 5 stored templates | Native mobile app allowing document creation, proposal sending, in-app approval execution, comment tracking, and real-time open/view alerts. |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Mobile Contract Review and Approval tools. The open-source ecosystem spans **AI-native CLM with mobile-accessible workflows**, **full contract lifecycle platforms**, **e-signature platforms with mobile-optimized UIs**, and **document approval systems**.
+Self-hosted, developer-friendly, and community-driven mobile contract review, redlining, and digital signing software.
 
-### draftLegal
-**Stack:** TypeScript / Python / Docker | **License:** AGPL-3.0
-draftLegal is explicitly positioned as **"the open-source alternative to Ironclad + Harvey"** — a self-hosted, AI-native contract lifecycle management platform where contracts never leave your servers [citation:16]. For review and approval, it provides **agent-first workflows** with ~30 tools over contracts including search, cite, compare, draft, redline, and route approvals, with every write proposed on a confirm card first and most actions undoable [citation:16]. **Redline & negotiate** capabilities offer conservative/moderate/aggressive counter-proposals with exact replacement language [citation:16]. **Full lifecycle** coverage includes approval workflows, in-platform e-signature, and post-signature obligation tracking [citation:16]. The platform is **web-based and accessible from mobile browsers**, though there is no dedicated native mobile app. **Important:** Early-stage project; review repository status before production use.
+*Sorted in descending order by GitHub stargazers count.*
 
-### OpenCLM
-**Stack:** TypeScript / PostgreSQL / Docker | **License:** AGPL-3.0
-OpenCLM is an open-source, self-hostable contract lifecycle management platform with **collaborative redlining, review workflows, electronic signatures, sealed PDFs, and API-first integrations** [citation:15][citation:21]. Key features include a contract repository, clause and template management, approval workflows, deadlines, obligations, analytics, and role-based access control [citation:21]. Executed PDFs carry document-native signatures, an embedded completion record, and a PAdES-B-B detached CMS platform seal with a public verification page [citation:15]. **Important status:** The README states this is an **early development release**, and the signature is an ordinary electronic signature (not advanced or qualified) with no long-term-validation material [citation:15]. Access is via web interface, which is responsive and usable on mobile browsers.
-
-### DocuSeal
-**Stack:** Ruby / PostgreSQL | **License:** AGPL-3.0
-DocuSeal is an open-source document signing platform with a **mobile-optimized UI** and a native iOS app (available on the App Store) [citation:19][citation:29]. It supports creating PDF forms, sending them for signature, tracking who has signed, and scanning paper documents into templates [citation:19]. Features include WYSIWYG PDF forms, 12 field types, multi-signer support, SMTP auto emails, S3/GCS/Azure storage, eSign and verify, API and webhooks [citation:29]. It has approximately **10.5k GitHub stars** [citation:29]. **Trade-off:** DocuSeal is focused on the **signing** layer rather than contract review, redlining, or approval workflows—it is the e-signature component that could complement a review platform.
-
-### Click2Approve
-**Stack:** .NET / SQL Server / Docker | **License:** MIT
-Click2Approve is an open-source document approval and workflow system that supports **document approval workflows with multi-step sequential or parallel assignees**, flexible task actions (approval, signature, confirmation, review, acceptance), and electronic signatures with IP address and browser evidence [citation:22]. It includes file uploads and previews, request and task tracking, email and in-app notifications, and a **responsive web interface** that can be managed from desktop or mobile [citation:22]. It is MIT-licensed, making it permissive for commercial use. **Trade-off:** It is a general document approval platform rather than a contract-specific CLM—it lacks contract clause management, redlining, or obligation tracking.
-
-### OnlyOffice Documents
-**Stack:** Native mobile apps (Android/iOS) | **License:** AGPL-3.0 (Community)
-OnlyOffice Documents provides native mobile apps for Android and iOS with **track changes and review functionality** [citation:28][citation:18]. The Reviews panel allows users to activate Track Changes mode, choose display modes (Markup, Final, Original), navigate between changes, and accept or reject individual changes or all changes at once [citation:18]. Document access permissions include a **Review** mode where changes need approval [citation:28]. While not a contract management platform, it provides the core **redlining and review capability** on mobile that a contract workflow requires—it could serve as the document editing layer alongside an approval system.
+| Project | Stars | Stack | License | Mobile Capabilities & Highlights |
+| :--- | :--- | :--- | :--- | :--- |
+| [**DocuSeal**](https://github.com/docusealco/docuseal) | [![GitHub stars](https://img.shields.io/github/stars/docusealco/docuseal?style=social&color=white)](https://github.com/docusealco/docuseal/stargazers) | Ruby, PostgreSQL | AGPL-3.0 | Modern open-source DocuSign alternative featuring a mobile-responsive interface and a **native iOS mobile app**. Offers 12 field types, multi-signer workflows, PDF creation, and webhook integrations. |
+| [**Documenso**](https://github.com/documenso/documenso) | [![GitHub stars](https://img.shields.io/github/stars/documenso/documenso?style=social&color=white)](https://github.com/documenso/documenso/stargazers) | Next.js, TypeScript, PostgreSQL | AGPL-3.0 | Modern, open digital signing infrastructure. Highly responsive web interface optimized for touchscreen document inspection, signing flows, and multi-party cryptographic sealing. |
+| [**Signature Pad**](https://github.com/szimek/signature_pad) | [![GitHub stars](https://img.shields.io/github/stars/szimek/signature_pad?style=social&color=white)](https://github.com/szimek/signature_pad/stargazers) | JavaScript, HTML5 Canvas | MIT | Smooth, responsive HTML5 canvas signature capture library tailored for mobile touch devices and styluses; widely integrated into custom mobile contract approval web apps. |
+| [**OpenSign**](https://github.com/OpenSignLabs/OpenSign) | [![GitHub stars](https://img.shields.io/github/stars/OpenSignLabs/OpenSign?style=social&color=white)](https://github.com/OpenSignLabs/OpenSign/stargazers) | Node.js, React, MongoDB | AGPL-3.0 | Open-source e-signature platform providing REST APIs, self-hosted deployment, mobile-compatible document review, and multi-user signing workflows. |
+| [**OnlyOffice Document Server**](https://github.com/ONLYOFFICE/DocumentServer) | [![GitHub stars](https://img.shields.io/github/stars/ONLYOFFICE/DocumentServer?style=social&color=white)](https://github.com/ONLYOFFICE/DocumentServer/stargazers) | C++, JavaScript, Native Mobile | AGPL-3.0 | Native iOS and Android mobile applications supporting **Track Changes, document redlining, and review modes**. Enables clause editing and real-time collaborative document review. |
+| [**draftLegal**](https://github.com/AniketTati/draft-legal) | [![GitHub stars](https://img.shields.io/github/stars/AniketTati/draft-legal?style=social&color=white)](https://github.com/AniketTati/draft-legal/stargazers) | TypeScript, Python, Docker | AGPL-3.0 | Self-hosted, AI-native contract lifecycle management platform positioned as an open alternative to Ironclad and Harvey. Features agentic redline suggestions, mobile browser review, and safe rollback cards. |
+| [**Click2Approve**](https://github.com/luarvic/click2approve) | [![GitHub stars](https://img.shields.io/github/stars/luarvic/click2approve?style=social&color=white)](https://github.com/luarvic/click2approve/stargazers) | .NET Core, SQL Server, Docker | MIT | Permissive MIT-licensed document approval workflow engine supporting sequential/parallel multi-step approval routing, audit logging, and responsive mobile review screens. |
+| [**OpenCLM**](https://github.com/bytecrunch-io/openclm) | [![GitHub stars](https://img.shields.io/github/stars/bytecrunch-io/openclm?style=social&color=white)](https://github.com/bytecrunch-io/openclm/stargazers) | TypeScript, PostgreSQL, Docker | AGPL-3.0 | Open-source CLM platform focused on contract repositories, clause libraries, role-based approval routing, sealed PDF generation, and mobile-friendly web administration. |
 
 ---
 
-## 📊 Comparison at a Glance
+## 📊 Comprehensive Comparison Matrix
 
-| Software | License | Stack | Mobile Access | Review/Redline | E-Signature | Self-Hosted | Best For |
-|----------|---------|-------|---------------|----------------|-------------|-------------|----------|
-| **Docusign** | Proprietary | Cloud | ✅ Native | (Limited) | ✅ | ❌ | Mobile e-signature standard |
-| **Adobe Acrobat Sign** | Proprietary | Cloud | ✅ Native | (Reading Mode) | ✅ Offline | ❌ | Offline signing + audit |
-| **PandaDoc** | Proprietary | Cloud | ✅ Native | (Approval) | ✅ | ❌ | Mobile document approval |
-| **Ironclad** | Proprietary | Cloud | ✅ (Signing) | (Desktop) | ✅ | ❌ | Workflow + mobile signing |
-| **Conga Contracts** | Proprietary | Cloud | ✅ Web (Slim) | ❌ | (Check) | ❌ | Basic mobile approvals |
-| **draftLegal** | AGPL-3.0 | TypeScript/Docker | ✅ Web | ✅ AI redline | ✅ | ✅ | Self-hosted AI CLM + redline |
-| **OpenCLM** | AGPL-3.0 | TypeScript/Postgres | ✅ Web | ✅ Redlining | ✅ PAdES | ✅ | Self-hosted full CLM |
-| **DocuSeal** | AGPL-3.0 | Ruby/Postgres | ✅ Native iOS | ❌ (Signing) | ✅ | ✅ | Open-source e-signature |
-| **Click2Approve** | MIT | .NET/SQL | ✅ Responsive | ❌ (Approval) | ✅ | ✅ | Document approval workflows |
-| **OnlyOffice** | AGPL-3.0 | Native apps | ✅ Native | ✅ Track changes | ❌ | ✅ (DocSpace) | Mobile document redlining |
+| Software Platform | Type / License | Mobile Experience | In-App Redline / Review | Digital Signing | Self-Hosted / On-Prem | Best For |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Adobe Acrobat Sign** | Proprietary SaaS | Native iOS / Android | Limited (Reading Mode) | ✅ Yes (Offline sync) | ❌ Cloud Only | Global enterprise standard for offline & compliant mobile signature |
+| **Docusign Mobile** | Proprietary SaaS | Native iOS / Android | Limited (Status tracking) | ✅ Yes | ❌ Cloud Only | Ubiquitous mobile e-signatures and agreement tracking |
+| **Coupa Approvals** | Proprietary SaaS | Native iOS / Android | ❌ (Workflow approval) | ✅ Procurement sign | ❌ Cloud Only | Enterprise procurement review and contract financial approvals |
+| **Ironclad** | Proprietary SaaS | Mobile Web / Responsive | ❌ (Desktop redlining) | ✅ Mobile signing | ❌ Cloud Only | Large enterprise intake, collaboration, and mobile execution |
+| **Conga Contracts** | Proprietary SaaS | Responsive Slim Web | ❌ (Gateway approval) | ✅ Conga Sign | ❌ Cloud Only | Salesforce-centric enterprise CLM with mobile approval steps |
+| **SignNow Mobile** | Proprietary SaaS | Native iOS / Android | ❌ (Form fill only) | ✅ Yes (Kiosk mode) | ❌ Cloud Only | Budget-conscious teams and on-site mobile kiosk signing |
+| **PandaDoc Mobile** | Proprietary SaaS | Native iOS / Android | Limited (Comment/Approve)| ✅ Yes | ❌ Cloud Only | Sales quote proposals and rapid mobile executive sign-offs |
+| **DocuSeal** | Open-Source (AGPL-3.0)| Native iOS & Responsive Web| ❌ (Signing flow) | ✅ Yes | ✅ Yes (Docker) | Self-hosted mobile-first e-signature workflows |
+| **Documenso** | Open-Source (AGPL-3.0)| Mobile Web / Responsive | ❌ (Field signing) | ✅ Cryptographic | ✅ Yes (Docker) | Next.js-based self-hosted digital signing infrastructure |
+| **Signature Pad** | Open-Source (MIT) | Touchscreen Canvas Library | ❌ (Canvas component) | ✅ Signature drawing | ✅ Client-side library| Custom mobile contract web and hybrid apps |
+| **OpenSign** | Open-Source (AGPL-3.0)| Mobile Web / Responsive | ❌ (Field signing) | ✅ Yes | ✅ Yes (Docker) | Free & self-hosted REST API-first signature automation |
+| **OnlyOffice** | Open-Source (AGPL-3.0)| Native iOS / Android | ✅ Full Track Changes | ❌ (Doc editing) | ✅ Yes | Detailed mobile clause redlining, markup, and revision comparison |
+| **draftLegal** | Open-Source (AGPL-3.0)| Mobile Web / Responsive | ✅ AI Agent Redlining | ✅ Integrated | ✅ Yes (Docker) | Private, self-hosted AI-driven contract redline and review |
+| **Click2Approve** | Open-Source (MIT) | Mobile Web / Responsive | ❌ (Document approval) | ✅ Basic approval | ✅ Yes (.NET) | Flexible, permissive document approval orchestration |
+| **OpenCLM** | Open-Source (AGPL-3.0)| Mobile Web / Responsive | ✅ Collaborative review| ✅ Sealed PDF | ✅ Yes (Docker) | Self-hosted full contract lifecycle management |
+
+---
+
+## 💡 Key Evaluation Criteria for Mobile Contract Review
+
+When evaluating platforms for mobile contract review and sign-off, legal and procurement teams should consider:
+
+1. **Touchscreen Redlining vs. Gate Approval:** Does your workflow require deep on-the-go clause editing (such as OnlyOffice or draftLegal), or simply rapid executive one-touch approval (like Coupa or Conga)?
+2. **Offline Readiness:** Field personnel and traveling executives often require offline contract review and signature capture with automatic synchronization (e.g., Adobe Acrobat Sign or SignNow).
+3. **Audit Trails & Security Compliance:** Ensure cryptographic authenticity (PAdES, ESIGN, UETA, and eIDAS compliance) and tamper-evident sealed PDFs.
+4. **Data Sovereignty & Self-Hosting:** Regulated sectors often mandate that contracts never leave on-premise infrastructure; self-hosted open-source options like DocuSeal, draftLegal, and OpenCLM address this requirement.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Mobile Contract Review or Approval tool that should be listed here, please open a pull request with:
+Contributions are warmly welcome! If you know of an active SaaS platform or open-source repository focusing on mobile contract review, redlining, or approval:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source.
-
-**Note on the open-source ecosystem:** The open-source landscape for **mobile contract review and approval** is **fragmented across layers** rather than unified platforms. **draftLegal** and **OpenCLM** provide full contract lifecycle management with AI-assisted redlining and approval workflows, accessible via mobile browsers, though both are early-stage [citation:15][citation:16]. **DocuSeal** fills the e-signature layer with a native iOS app [citation:19]. **OnlyOffice** provides the mobile redlining and track-changes capability that a contract workflow requires [citation:18]. **Click2Approve** offers a permissive MIT-licensed approval workflow foundation [citation:22]. No single open-source project replicates Ironclad's breadth of intake-to-signature workflow with a polished mobile experience, but combinations of these tools can cover the core review, approval, and signing workflow for self-hosted deployments.
+1. Fork this repository.
+2. Create a branch: `git checkout -b feature/new-tool`.
+3. Add the project with details, pricing/stars, and mobile capabilities.
+4. Open a Pull Request.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
-
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+This repository is distributed under the [CC0 1.0 Universal (Public Domain)](LICENSE) license. Listed trademarks and software packages belong to their respective owners.
